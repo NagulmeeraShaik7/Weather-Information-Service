@@ -82,6 +82,10 @@ const swaggerOptions = {
         url: `http://localhost:${process.env.PORT || 3000}`,
         description: 'Development server',
       },
+      {
+        url: 'https://weather-information-service-gt0d.onrender.com',
+        description: 'Production server',
+      }
     ],
   },
   apis: ['./src/apps/routers/*.mjs'], // Path to files with Swagger annotations
